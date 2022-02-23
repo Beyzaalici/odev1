@@ -1,0 +1,34 @@
+.bilgi{
+    text-align:center;
+  
+}
+.resim{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /*column olduğu için dikeyde konumlandırma yapar*/
+    align-items:center; /*column olduğu için yatayda konumlandırma yapar*/
+    
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.items .item{
+    width: 33%;
+    text-align: center;
+    padding: 0.2rem;
+    list-style-type:none;
+}
+.items .item .liste{
+    list-style-type: none;
+}
+.baslık2{
+    text-align: center;
+}
+.tarif{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /*column olduğu için dikeyde konumlandırma yapar*/
+    align-items:center; /*column olduğu için yatayda konumlandırma yapar*/
+}
